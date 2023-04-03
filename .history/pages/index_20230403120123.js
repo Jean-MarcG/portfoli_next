@@ -35,7 +35,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons dark:text-white'>développeur</h1>
               <ul className='flex items-center'>
                 <li>
-                  <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/>
+                  <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
                 </li>
                 <li>
                   <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
@@ -45,9 +45,9 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Jean-Marc Gagnebien</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>développeur et designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl mx-auto max-w-lg dark:text-white'>Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl mx-auto max-w-lg'>Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!</p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white'>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillInstagram />
@@ -61,12 +61,12 @@ export default function Home() {
         
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
+            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p className='text-md py-2 leading-8 text-gray-80'>
               Since the beginning of my journey as a Freelancer designer and developer, I've done remote work for
               <span className='text-teal-500'> agencies </span>consulted for <span className='text-teal-500'> startups </span>and collaborated with talanted people to create digital products for both business and consumer use.
             </p>
-            <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
+            <p className='text-md py-2 leading-8 text-gray-80'>
               I offer a wide range of services, including programming and teaching.
             </p>
           </div>
@@ -108,8 +108,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-              <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
+              <p className='text-md py-2 leading-8 text-gray-80'>
                 I offer a wide range of services, including programming and teaching.
               </p>
           </div>
