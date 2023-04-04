@@ -45,7 +45,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Jean-Marc Gagnebien</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>développeur et designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl mx-auto max-w-lg dark:text-white'>Freelancer providing services for programming and design content needs. Join me down below and let&apos;s get cracking!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl mx-auto max-w-lg dark:text-white'>Freelancer providing services for programming and design content needs. Join me down below and let &apos; s get cracking!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white'>
             <AiFillTwitterCircle />
@@ -63,7 +63,7 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
-              Since the beginning of my journey as a Freelancer designer and developer, I&apos;ve done remote work for
+              Since the beginning of my journey as a Freelancer designer and developer, I've done remote work for
               <span className='text-teal-500'> agencies </span>consulted for <span className='text-teal-500'> startups </span>and collaborated with talanted people to create digital products for both business and consumer use.
             </p>
             <p className='text-md py-2 leading-8 text-gray-80 dark:text-white'>
